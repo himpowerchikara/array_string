@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title></title>
+
+	<style type="text/css">
+
+		#ntext{position: absolute; top:100px; margin-left:430px; font-size: 10px; 
+			   font-weight: bold; letter-spacing: 10px;}
+
+		.tx{ position: absolute; top:450px; margin-left:437px;  color:black; 
+			font-weight: bold; animation: drop 10s infinite;  opacity:0; font-size: 10px;
+		    transition: all 0.2s; }
+				@keyframes drop {
+				0%{ opacity:0;}
+				10%{opacity:1;}
+				}
+
+		.red1{ position: absolute; top:50px; margin-left:300px;  color:red; 
+			font-weight: bold; animation: fffff 1.5s infinite;
+			 opacity:0; font-size: 200px;z-index:-3;
+		    transition: all 1s; }
+				@keyframes fffff {
+				0%{ opacity:0;}
+				5%{opacity:1;}
+				}
+
+				.redd{ position: absolute; top:200px; margin-left:650px;  color:red; 
+			font-weight: bold; animation: fffff 1s infinite;
+			  opacity:0; font-size: 300px;z-index:-3;
+		    transition: all 1s; }
+				@keyframes fffff {
+				0%{ opacity:0;}
+				5%{opacity:1;}
+				}
+
+				.redd2{ position: absolute; top:30px; margin-left:600px;  color:red; 
+			font-weight: bold; animation: fffff 0.8s infinite; 
+			 opacity:0; font-size: 100px;z-index:-3;
+		    transition: all 1s; }
+				@keyframes fffff {
+				0%{ opacity:0;}
+				5%{opacity:1;}
+				}
+
+				.redd3{ position: absolute; top:200px; margin-left:850px;  color:red; 
+			font-weight: bold; animation: fffff 2.1s infinite; 
+			 opacity:0; font-size:80px; z-index:-3;
+		    transition: all 1s; }
+				@keyframes fffff {
+				0%{ opacity:0;}
+				5%{opacity:1;}
+				}
+
+				.redd4{ position: absolute; top:100px; margin-left:750px;  color:red; 
+			font-weight: bold; animation: fffff 1.7s infinite; 
+			 opacity:0; font-size:50px;  z-index:-3;
+		    transition: all 1s; }
+				@keyframes fffff {
+				0%{ opacity:0;}
+				5%{opacity:1;}
+				}
+
+				.redd5{ position: absolute; top:300px; margin-left:150px;  color:red; 
+			font-weight: bold; animation: fffff 1.4s infinite;
+			  opacity:0; font-size: 100px; z-index:-3;
+		    transition: all 1s; }
+				@keyframes fffff {
+				0%{ opacity:0;}
+				5%{opacity:1;}
+				}
+
+
+
+
+		#bacc{width:1650px; height:1000px; position:absolute; left:-100px; top:-100px; background-color: black; z-index:-2;}
+		#bac{ position: absolute; top:-100px; left:350px; width:800px; height:850px; z-index:-1;}
+		#taz{ position: absolute; top:450px; left:-30px; width:1600px; height:300px; z-index:-1;}
+		#key1{position: absolute; top:650px; left:200px; z-index:-1; 
+		     animation: a 1s infinite;}
+		     @keyframes a {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key2{position: absolute; top:650px; left:300px; z-index:-1;
+			animation: aa 1s infinite;}
+			 @keyframes aa {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key3{position: absolute; top:650px; left:400px; z-index:-1;
+			animation: aaa 2.9s infinite;}
+			 @keyframes aaa {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key4{position: absolute; top:650px; left:500px; z-index:-1;
+			animation: aaaa 0.5s infinite;}
+			 @keyframes aaaa {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key5{position: absolute; top:650px; left:600px; z-index:-1;
+			animation: aaaaa 2.2s infinite;}
+			 @keyframes aaaaa {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key6{position: absolute; top:650px; left:700px; z-index:-1;
+			animation: b 4s infinite;}
+			 @keyframes b {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key7{position: absolute; top:650px; left:800px; z-index:-1;
+			animation: bb 2s infinite;}
+			 @keyframes bb {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key8{position: absolute; top:650px; left:900px; z-index:-1;
+			animation: bbb 1.3s infinite;}
+			 @keyframes bbb {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key9{position: absolute; top:650px; left:1000px; z-index:-1;
+			animation: bbbb 1.8s infinite;}
+			 @keyframes bbbb {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key10{position: absolute; top:650px; left:1100px; z-index:-1;
+			animation: bbbbb 1.1s infinite;}
+			 @keyframes bbbbb {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key11{position: absolute; top:650px; left:1200px; z-index:-1;
+			animation: c 2.6s infinite;}
+ 				@keyframes c {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+
+				#blood {position: absolute; top:0px; left:0px; width:1550px; 
+					height:900px; z-index:-8;}
+	</style>
+</head>
+<body>
+	<div id=bacc></div>
+<div id = "textt"></div>
+<div id = "txCon"></div>
+<div id= ntext>All works and no play makes jack a dull boy</div>
+
+<div id= "all">
+<div id = "redtex"></div>
+<div id = "redCon"></div>
+</div>
+
+<img id= bac src = "paper.jpg">
+<img id= taz src = "taza.png">
+<img id= key1 src = "k1.png">
+<img id= key2 src = "k2.png">
+<img id= key3 src = "k3.png">
+<img id= key4 src = "k4.png">
+<img id= key5 src = "k5.png">
+<img id= key6 src = "k6.png">
+<img id= key7 src = "k7.png">
+<img id= key8 src = "k8.png">
+<img id= key9 src = "k9.png">
+<img id= key10 src = "k10.png">
+<img id= key11 src = "k11.png">
+<img id= blood src = "bld.gif">
+
+<audio id="sn">
+  <source src="shining.mp3" type="audio/mpeg"></audio>
+
+<script>
+
+ var r = document.getElementsByClassName("red1");
+
+	/*타자기*/
+	var text1 = "All works and no play makes jack a dull boy";
+	var kk = text1
+	for(var ii=0; ii<kk.length; ii++){
+		var cc = document.getElementById("textt");
+		var dd = cc.cloneNode(true);
+		dd.className = "tx";
+		dd.innerHTML = kk[ii];
+		dd.style.left = 15*ii +"px";
+		dd.style.animationDelay=ii*0.2+"s";
+		txCon.appendChild(dd);
+	}
+	/*타자기*/
+
+
+	/*문장*/
+	for(var ii=0;ii<9;ii++){
+	var tt = document.getElementById("ntext");
+	var kk = tt.cloneNode(true);
+	kk.style.top = ii*50 +"px"
+	document.body.appendChild(kk);
+	}
+
+	
+	/*문장*/
+
+var text = "RED@RUM ";
+	var k = text.split("@"); 
+	var display = "";
+	for(var i=0; i<k.length; i++){
+		var c = document.getElementById("redtex");
+		var d = c.cloneNode(true);
+		d.className = "red1";
+		d.id= "a" + i;
+		d.innerHTML = k[i];
+		d.style.left = 1*i +"px";
+		d.style.animationDelay=i*1+"s";
+		
+		redCon.appendChild(d);
+}
+
+var text = "RED@RUM ";
+	var k = text.split("@"); 
+	var display = "";
+	for(var i=0; i<k.length; i++){
+		var c = document.getElementById("redtex");
+		var d = c.cloneNode(true);
+		d.className = "redd";
+		d.id= "a" + i;
+		d.innerHTML = k[i];
+		d.style.left = 1*i +"px";
+		d.style.animationDelay=i*0.5+"s";
+		
+		redCon.appendChild(d);
+}
+
+var text = "RED@RUM ";
+	var k = text.split("@"); 
+	var display = "";
+	for(var i=0; i<k.length; i++){
+		var c = document.getElementById("redtex");
+		var d = c.cloneNode(true);
+		d.className = "redd2";
+		d.id= "a" + i;
+		d.innerHTML = k[i];
+		d.style.left = 1*i +"px";
+		d.style.animationDelay=i*0.5+"s";
+		
+		redCon.appendChild(d);
+}
+
+var text = "RED@RUM ";
+	var k = text.split("@"); 
+	var display = "";
+	for(var i=0; i<k.length; i++){
+		var c = document.getElementById("redtex");
+		var d = c.cloneNode(true);
+		d.className = "redd3";
+		d.id= "a" + i;
+		d.innerHTML = k[i];
+		d.style.left = 1*i +"px";
+		d.style.animationDelay=i*0.5+"s";
+		
+		redCon.appendChild(d);
+}
+
+var text = "RED@RUM ";
+	var k = text.split("@"); 
+	var display = "";
+	for(var i=0; i<k.length; i++){
+		var c = document.getElementById("redtex");
+		var d = c.cloneNode(true);
+		d.className = "redd4";
+		d.id= "a" + i;
+		d.innerHTML = k[i];
+		d.style.left = 1*i +"px";
+		d.style.animationDelay=i*0.5+"s";
+		
+		redCon.appendChild(d);
+}
+
+var text = "RED@RUM ";
+	var k = text.split("@"); 
+	var display = "";
+	for(var i=0; i<k.length; i++){
+		var c = document.getElementById("redtex");
+		var d = c.cloneNode(true);
+		d.className = "redd5";
+		d.id= "a" + i;
+		d.innerHTML = k[i];
+		d.style.left = 1*i +"px";
+		d.style.animationDelay=i*0.5+"s";
+		
+		redCon.appendChild(d);
+}
+
+
+var toggle = "off"
+
+bac.onclick=function(){
+			if(toggle == "off"){
+
+			bac.style.zIndex=-7
+			taz.style.zIndex=-6
+			bacc.style.zIndex=-8
+			sn.play();
+			sn.currentTime=0;
+
+			toggle = "on";
+			}
+
+			else{ 
+			toggle = "off";
+			
+			bac.style.zIndex=-1
+			taz.style.zIndex=-1
+			bacc.style.zIndex=-2
+			sn.pause();
+			}
+			}
+
+			taz.onclick=function(){
+			if(toggle == "off"){
+
+			bac.style.zIndex=-7
+			taz.style.zIndex=-6
+			bacc.style.zIndex=-9
+			sn.play();
+			sn.currentTime=0;
+
+			toggle = "on";
+			}
+
+			else{ 
+			toggle = "off";
+			
+			bac.style.zIndex=-1
+			taz.style.zIndex=-1
+			bacc.style.zIndex=-2
+			sn.pause();
+			}
+			}
+
+
+
+</script>
+
+
+</body>
+</html>
